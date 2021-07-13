@@ -1,0 +1,20 @@
+//Fonts
+@import "fonts";
+
+// import Swiper styles
+@import "../../node_modules/swiper/swiper";
+@import "../../node_modules/swiper/components/navigation/navigation";
+@import "../../node_modules/swiper/components/lazy/lazy";
+
+//Tailwind
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Components
+@import "settings/colors";
+@import "settings/mixins";
+@import "components/menu";
+
+//Custom CSS
+@import "custom";

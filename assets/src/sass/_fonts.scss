@@ -1,0 +1,22 @@
+// Agency FB regular font
+@font-face {
+	font-family: "AgencyFB";
+	src: url("../fonts/agencyFB-regular.eot");
+	src: url("../fonts/agencyFB-regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/agencyFB-regular.woff2") format("woff2"),
+		url("../fonts/agencyFB-regular.woff") format("woff"),
+		url("../fonts/agencyFB-regular.ttf") format("truetype"),
+		url("../fonts/agencyFB-regular.svg#AgencyFBW00-Regular") format("svg");
+	font-weight: normal;
+}
+
+// Raleway regular and light font
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+
+// Font Awesome
+$fa-font-path: "../fonts"; // font path
+//Adapt the path to be relative to your main.scss file
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
