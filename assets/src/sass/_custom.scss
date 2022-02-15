@@ -8,20 +8,20 @@ p:nth-last-child(n + 2) {
 	div.wpforms-container-full {
 		margin: 0;
 		.wpforms-form {
-			input[type="date"],
-			input[type="datetime"],
-			input[type="datetime-local"],
-			input[type="email"],
-			input[type="month"],
-			input[type="number"],
-			input[type="password"],
-			input[type="range"],
-			input[type="search"],
-			input[type="tel"],
-			input[type="text"],
-			input[type="time"],
-			input[type="url"],
-			input[type="week"],
+			input[type='date'],
+			input[type='datetime'],
+			input[type='datetime-local'],
+			input[type='email'],
+			input[type='month'],
+			input[type='number'],
+			input[type='password'],
+			input[type='range'],
+			input[type='search'],
+			input[type='tel'],
+			input[type='text'],
+			input[type='time'],
+			input[type='url'],
+			input[type='week'],
 			select,
 			textarea {
 				height: 30px;
@@ -29,8 +29,8 @@ p:nth-last-child(n + 2) {
 				font-weight: lighter;
 			}
 
-			input[type="submit"],
-			button[type="submit"],
+			input[type='submit'],
+			button[type='submit'],
 			.wpforms-page-button {
 				@apply bg-black border-black text-white text-base py-1 w-full block text-center uppercase font-agency;
 
@@ -54,23 +54,4 @@ p:nth-last-child(n + 2) {
 .swiper-button-disabled {
 	opacity: 0.35;
 	cursor: auto;
-}
-
-// Suipper: Centerd slide full height
-.gallery__content--carousel .swiper-slide {
-	@include md {
-		// transform: scale(0.95);
-		// &.swiper-slide-active {
-		// 	transform: scale(1) !important;
-		// }
-		img {
-			height: 95%;
-			// @include transition-ease;
-		}
-		&.swiper-slide-active {
-			img {
-				height: 100%;
-			}
-		}
-	}
 }
